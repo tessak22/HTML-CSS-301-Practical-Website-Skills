@@ -2,6 +2,7 @@
 body {
 	font-size: 16px;
 	transition: all 0.25s cubic-bezier(0.54, 0.12, 0.2, 1) 0s;
+	font-family: 'Montserrat', sans-serif;
 }
 p {
 	line-height: 22px;
@@ -46,13 +47,13 @@ h6 {
 }
 button {
 	color: #fff;
-	background: blue;
+	background: #8161da;
 	padding: 6px 12px;
 	font-size: 14px;
 	cursor: pointer;
 }
 button:hover {
-	background: darkblue;
+	background: #6b45d4;
 	color: #fff;
 }
 img {
@@ -62,11 +63,12 @@ img {
 
 /* Header */
 header {
-
+	background: #000;
+	overflow: hidden;
 }
 
 .logo {
-	width: 30%;
+	width: 40%;
 	float: left;
 }
 
@@ -76,14 +78,15 @@ header {
 
 .logo h1 a {
 	font-size: 36px;
+	color: #fff;
 }
 
 .logo h1 a:hover {
-
+	color: #8161da;
 }
 
 .nav-main {
-	width: 65%;
+	width: 60%;
 	float: right;
 }
 
@@ -98,10 +101,13 @@ header {
 
 .nav-main li a {
 	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
 }
 
 .nav-main li a:hover {
-
+	background: #6b45d4;
+	color: #fff;
 }
 
 .nav-toggle {
@@ -116,14 +122,15 @@ header {
 
 /* Section: Banner + Feature */
 .banner {
-	background: url("../images/banner.jpg") no-repeat scroll top center / cover;
-	min-height: 250px;
+	background: url("../images/puppies.jpg") no-repeat scroll center / cover;
+	min-height: 500px;
 	clear: both;
 }
 
 .feature {
 	padding: 40px 0;
 	text-align: center;
+	background: #8161da;
 }
 
 .feature h2 {
@@ -143,9 +150,12 @@ header {
 .feature button {
 	font-size: 16px;
 	padding: 10px 20px;
+	background: #000;
 }
 
 .feature button:hover {
+	background: #fff;
+	color: #000;
 }
 
 /* Secton: Content */
