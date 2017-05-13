@@ -1,0 +1,226 @@
+/* General Styles */
+body {
+	font-size: 16px;
+	transition: all 0.25s cubic-bezier(0.54, 0.12, 0.2, 1) 0s;
+}
+p {
+	line-height: 22px;
+	margin-bottom: 15px;
+}
+a {
+	text-decoration: none;
+	color: blue;
+}
+a:hover {
+	color: darkblue;
+	text-decoration: none;
+}
+a:active {
+
+}
+h1 {
+
+}
+h2 {
+	font-size: 40px;
+	margin-bottom: 15px;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 28px;
+	margin-bottom: 15px;
+}
+
+h4 {
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+button {
+	color: #fff;
+	background: blue;
+	padding: 6px 12px;
+	font-size: 14px;
+	cursor: pointer;
+}
+button:hover {
+	background: darkblue;
+	color: #fff;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Header */
+header {
+
+}
+
+.logo {
+	width: 30%;
+	float: left;
+}
+
+.logo h1 {
+	padding: 20px 0;
+}
+
+.logo h1 a {
+	font-size: 36px;
+}
+
+.logo h1 a:hover {
+
+}
+
+.nav-main {
+	width: 65%;
+	float: right;
+}
+
+.nav-main ul {
+	text-align: right;
+}
+
+.nav-main li {
+	display: inline-block;
+	padding: 30px 0;
+}
+
+.nav-main li a {
+	padding: 10px 15px;
+}
+
+.nav-main li a:hover {
+
+}
+
+.nav-toggle {
+	display: none;
+}
+
+/*Setup a Container for Multi-Use*/
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* Section: Banner + Feature */
+.banner {
+	background: url("../images/banner.jpg") no-repeat scroll top center / cover;
+	min-height: 250px;
+	clear: both;
+}
+
+.feature {
+	padding: 40px 0;
+	text-align: center;
+}
+
+.feature h2 {
+	font-size: 40px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.feature h3 {
+	margin-bottom: 30px;
+}
+
+.feature p {
+	margin-bottom: 20px;
+}
+
+.feature button {
+	font-size: 16px;
+	padding: 10px 20px;
+}
+
+.feature button:hover {
+}
+
+/* Secton: Content */
+.content {
+
+}
+
+main {
+	float: left;
+	width: 65%;
+	margin-right: 30px;
+	padding: 70px 0;
+}
+
+aside {
+	float: right;
+	width: 30%;
+	padding: 70px 0;
+}
+
+aside ul {
+	list-style-type: none;
+}
+
+
+/* Section: Services */
+.services {
+	clear: both;
+}
+
+.box {
+	width: 30%;
+	margin-right: 30px;
+	float: left;
+	margin-bottom: 50px;
+}
+
+.box:last-child {
+	margin-right: 0;
+}
+
+/* Footer */
+footer {
+	clear: both;
+	text-align: center;
+}
+
+footer h2 {
+	padding-top: 30px;
+}
+
+footer ul {
+	padding: 20px 0 25px;
+}
+
+footer li {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin: 0 5px;
+}
+
+footer li:hover {
+}
+
+footer li a {
+	font-size: 20px;
+	position: relative;
+	top: 10px;
+}
+
+footer li a:hover {
+}
+
+.copyright {
+	text-align: center;
+	padding-bottom: 20px;
+}
